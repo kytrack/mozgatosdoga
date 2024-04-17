@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="fel()">⬆️</button>
+    <button onclick="le()">⬇️</button>
+    <button onclick="balra()">⬅️</button>
+    <button onclick="jobbra()">➡️</button>
+    
+    <input type="range" min="1" max="100" value="50" class="slider" id="szeles" onchange="szelesseg()">
+    <input type="range" min="1" max="100" value="50" class="slider" id="magas" orient="vertical" onchange="magassag()">
+
+    <div id="container">
+
+
+        <button id="mozgo"></button>
+
+    </div>
+</body>
+</html>
